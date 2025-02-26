@@ -2,7 +2,7 @@ ARTS=1
 Counterfactual=1
 GPU=0
 fusion_mode=sum
-dataset_name=$2
+dataset_name=$1
 # dataset_name in ["laptop", "rest"]
 seed=20
 epoch=50
