@@ -41,5 +41,5 @@ python3 main_cfabsa.py \
     --learning_rate $learning_rate \
     --max_len_s $max_len_s \
     --max_len_a $max_len_a \
-    --model_name $model_name
+    --model_name $model_name \
     --save_dir $save_dir 2>&1 | tee  ${save_dir}/run.log \
